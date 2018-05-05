@@ -1,0 +1,8 @@
+(defun quadrado(x) (* x x))
+(defun discr(a b c) (- (* b b) (* 4 a c)))
+(defun maior(x y z)
+	(if (> x y) 
+		(if (> x z) x z)
+		(if (> y z) y z)
+	)
+)
